@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-size: 1.2em;
+    margin: auto;
+    background-color: #42455a;
+    font-family: 'Roboto', sans-serif;
+}
+h1{ /*Dient dem Seitentitel */
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+h2{ /*Dient dem Seitenuntertitel */
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+nav{ /* Navigation */
+    width: 100%;
+    min-width: 750px;
+    background-color: #42455a;
+    height: 30px;
+    color: aliceblue;
+    list-style-type: none;
+    margin-top: 5px;
+    padding: 0;
+    
+}
+li, a{
+    font-size: 20px;
+    display: inline;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+input[type=text],textarea {
+    width: 50%;
+    margin: auto;
+    padding: 10px 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 1em;
+    border: 1px solid;
+    transition: ease-in-out, border .35s ease-in-out;
+}
+div{
+    text-align: center;
+    margin: auto;
+}
+.classA{
+    font-size: 20px;
+    outline: auto;
+    color: white;
+}
+.classC{
+    color: white;
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav a:hover{
+    color: lightblue;
+}
+img{
+    max-width: 300px;
+    float: right;
+}
+.löschen{
+    float: right;
+    width: 10%;
+
+}
+article{
+    outline: auto;
+    outline-color: white;
+    padding: 10px;
+    margin: 20px;
+    overflow: hidden;
+}
+.classC{
+    width: 3%;
+    font-size: 25px;
+}
+.classB{
+    color: white;
+    font-size: 20px;
+}
+h5{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.home{
+    text-align: center;
+    color: white;
+}
